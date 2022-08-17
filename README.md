@@ -4,6 +4,12 @@ https://solo.to/buxh
 ## Disclaimer
 I'm a beginner when it comes to programming and by no means good at C++. I'm also aware that the gui looks terrible and that the program has still got a few bugs.
 
+## Download
+<!-- BEGIN LATEST DOWNLOAD BUTTON -->
+[![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://github.com/buxh/ClickDataAnalyzer/releases/download/minecraft/analyze.exe)
+<!-- END LATEST DOWNLOAD BUTTON -->
+
+
 ## Preview
 ![](images/3.png)
 ![](images/1.png)
