@@ -38,14 +38,12 @@ Click in the box for about 1-2 minutes then click "Evaluate Data"
 
 
 ## Compiling
-#### Compiling from the source
+### Compiling from the source
 Open the solution file `ClickInspector.sln`, then select `Release | x64` on the Build configuration and press Build solution.
 
 
 ## Is this malware?
-For anyone that doesn't know the very basics of C++ and is just here to use the program and is unsure if it is safe I can asure you that everything I put on my github is 100% safe. 
-#### Virustotal link
-https://www.virustotal.com/gui/file/a00c35b8da7bf0aa9838c135e0c5980cb8942f97bbe7bd8565c40f55da60bc4a/detection
+For anyone that doesn't know the very basics of C++ and is just here to use the program and is unsure if it is safe I can asure you that everything I put on my github is 100% safe. Here is a [Virustotal link](https://www.virustotal.com/gui/file/a00c35b8da7bf0aa9838c135e0c5980cb8942f97bbe7bd8565c40f55da60bc4a/detection) to show that it is out of harm's way.
 
 
 ## Help
