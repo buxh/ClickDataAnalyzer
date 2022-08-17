@@ -35,6 +35,7 @@ Click in the box for about 1-2 minutes then click "Evaluate Data"
 - [ ] Make the program more user friendly
 - [ ] Give the option to click in game
 - [ ] Give the graph a more modern look
+- [ ] Create a close button so you don't have to close with task manager 
 
 
 ## Compiling
