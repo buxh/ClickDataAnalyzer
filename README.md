@@ -8,6 +8,7 @@ I'm a beginner when it comes to programming and by no means good at C++. I'm als
 <!-- BEGIN LATEST DOWNLOAD BUTTON -->
 [![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://github.com/buxh/ClickDataAnalyzer/releases/download/minecraft/analyze.exe)
 <!-- END LATEST DOWNLOAD BUTTON -->
+<https://img.shields.io/apm/dm/downloads?label=downloads&style=plastic>
 
 
 ## Preview
@@ -30,3 +31,8 @@ Click in the box for about 1-2 minutes then click "Evaluate Data"
 - [ ] Make the program more user friendly
 - [ ] Give the option to click in game
 - [ ] Give the graph a more modern look
+
+## Compiling
+### Compiling from the source
+Open the solution file `clicker.sln`, then select `Release | x64` on the Build configuration and press Build solution.
+Any issues contact me on discord: `paid#1337`
