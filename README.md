@@ -8,7 +8,6 @@ I'm a beginner when it comes to programming and by no means good at C++. I'm als
 <!-- BEGIN LATEST DOWNLOAD BUTTON -->
 [![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://github.com/buxh/ClickDataAnalyzer/releases/download/minecraft/analyze.exe)
 <!-- END LATEST DOWNLOAD BUTTON -->
-<https://img.shields.io/apm/dm/downloads?label=downloads&style=plastic>
 
 
 ## Preview
