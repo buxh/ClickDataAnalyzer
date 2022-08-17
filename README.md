@@ -35,4 +35,6 @@ Click in the box for about 1-2 minutes then click "Evaluate Data"
 ## Compiling
 ### Compiling from the source
 Open the solution file `clicker.sln`, then select `Release | x64` on the Build configuration and press Build solution.
-Any issues contact me on discord: `paid#1337`
+
+## Help
+If you are in need of help open an issue or contact me on discord: `paid#1337`
