@@ -5,6 +5,7 @@ https://solo.to/buxh
 ## Disclaimer
 I'm a beginner when it comes to programming and by no means good at C++. I'm also aware that the gui looks terrible and that the program has still got a few bugs.
 
+Keep in mind you need to close the program with task manager, in a later update a close button will be added.
 
 ## Download
 <!-- BEGIN LATEST DOWNLOAD BUTTON -->
