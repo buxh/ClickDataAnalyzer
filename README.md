@@ -26,6 +26,7 @@ Click in the box for about 1-2 minutes then click "Evaluate Data"
 - Ability to record click data into a .txt file
 
 ## To do
+- [x] Toggleable CPS and MS lines from graph
 - [ ] Create a nicer looking gui
 - [ ] Make the program more user friendly
 - [ ] Give the option to click in game
