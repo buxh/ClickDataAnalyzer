@@ -198,31 +198,31 @@ int APIENTRY WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
     LPCSTR wndwName = "  ";
 
 
-    // Create application window
+    
     WNDCLASSEX wc = { sizeof(WNDCLASSEX), CS_CLASSDC, WndProc, 0L, 0L, GetModuleHandle(NULL), NULL, NULL, NULL, NULL, wndwName, NULL };
     RegisterClassEx(&wc);
     main_hwnd = CreateWindow(wc.lpszClassName, wndwName, WS_POPUP, 0, 0, 5, 5, NULL, NULL, wc.hInstance, NULL);
 
-    // Initialize Direct3D
+    
     if (!CreateDeviceD3D(main_hwnd)) {
         CleanupDeviceD3D();
         UnregisterClass(wc.lpszClassName, wc.hInstance);
         return 1;
     }
 
-    // Show the window
+    
     ShowWindow(main_hwnd, SW_HIDE);
     UpdateWindow(main_hwnd);
 
-    // Setup Dear ImGui context
+   
     ImGui::CreateContext();
     ImPlot::CreateContext();
 
     ImGuiIO& io = ImGui::GetIO();
-    io.IniFilename = nullptr; //crutial for not leaving the imgui.ini file
-    io.ConfigFlags |= ImGuiConfigFlags_ViewportsEnable; // Enable Multi-Viewport / Platform Windows
+    io.IniFilename = nullptr; 
+    io.ConfigFlags |= ImGuiConfigFlags_ViewportsEnable; 
 
-    // When viewports are enabled we tweak WindowRounding/WindowBg so platform windows can look identical to regular ones.
+    
     ImGuiStyle& style = ImGui::GetStyle();
     if (io.ConfigFlags & ImGuiConfigFlags_ViewportsEnable)
     {
@@ -230,11 +230,11 @@ int APIENTRY WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
         style.Colors[ImGuiCol_WindowBg].w = 1.0f;
     }
 
-    // Setup Platform/Renderer backends
+    
     ImGui_ImplWin32_Init(main_hwnd);
     ImGui_ImplDX9_Init(g_pd3dDevice);
 
-    // Main loop
+    
     MSG msg;
     ZeroMemory(&msg, sizeof(msg));
     while (msg.message != WM_QUIT)
@@ -246,7 +246,7 @@ int APIENTRY WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
             continue;
         }
 
-        // Start the Dear ImGui frame
+        
         ImGui_ImplDX9_NewFrame();
         ImGui_ImplWin32_NewFrame();
         CustomStyle();
@@ -264,7 +264,7 @@ int APIENTRY WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
             g_pd3dDevice->EndScene();
         }
 
-        // Update and Render additional Platform Windows
+        
         if (io.ConfigFlags & ImGuiConfigFlags_ViewportsEnable)
         {
             ImGui::UpdatePlatformWindows();
@@ -273,7 +273,7 @@ int APIENTRY WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 
         HRESULT result = g_pd3dDevice->Present(NULL, NULL, NULL, NULL);
 
-        // Handle loss of D3D9 device
+        
         if (result == D3DERR_DEVICELOST && g_pd3dDevice->TestCooperativeLevel() == D3DERR_DEVICENOTRESET) {
             ResetDevice();
         }
@@ -309,7 +309,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) {
         }
         return 0;
     case WM_SYSCOMMAND:
-        if ((wParam & 0xfff0) == SC_KEYMENU) // Disable ALT application menu
+        if ((wParam & 0xfff0) == SC_KEYMENU)
             return 0;
         break;
     case WM_DESTROY:
