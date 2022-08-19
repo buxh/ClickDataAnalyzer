@@ -11,7 +11,6 @@ Keep in mind you need to close the program with task manager, in a later update 
 <!-- BEGIN LATEST DOWNLOAD BUTTON -->
 [![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://github.com/buxh/ClickDataAnalyzer/releases/download/minecraft/analyze.exe)
 <!-- END LATEST DOWNLOAD BUTTON -->
-![](https://img.shields.io/github/downloads/buxh/ClickDataAnalyzer/total.svg)
 
 ## Preview
 ![](images/3.png)
