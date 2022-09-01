@@ -48,4 +48,4 @@ For anyone that doesn't know the very basics of C++ and is just here to use the 
 
 
 ## Help
-If you are in need of help open an issue or contact me on discord: `fraud#4324`
+If you are in need of help open an issue or contact me on discord: `larp#4324`
