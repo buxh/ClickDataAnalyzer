@@ -1,5 +1,5 @@
 # ClickDataAnalyzer
-https://solo.to/buxh
+https://e-z.bio/xx
 
 
 ## Disclaimer
